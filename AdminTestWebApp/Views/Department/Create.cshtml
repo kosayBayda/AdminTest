@@ -1,0 +1,32 @@
+﻿
+@model Shared.ViewModels.DepartmentViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/AdminLTE/_Layout.cshtml";
+
+}
+
+<hr />
+<div class="card card-primary">
+    <div class="card-header">
+        <h3 class="card-title">Add Department</h3>
+    </div>
+    <!-- /.card-header -->
+    <!-- form start -->
+    <form role="form" asp-action="Create">
+        <div class="card-body">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="title"  for="title" class="control-label"></label>
+                <input asp-for="title"  required type="text" class="form-control" id="title" placeholder="Enter title">
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+            <!-- /.card-body -->
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Add</button>
+            </div>
+        </div>
+    </form>
+</div>

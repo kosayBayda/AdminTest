@@ -1,0 +1,12 @@
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\obj\Debug\netstandard2.0\DBLayer.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\obj\Debug\netstandard2.0\DBLayer.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\obj\Debug\netstandard2.0\DBLayer.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\obj\Debug\netstandard2.0\DBLayer.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\bin\Debug\netstandard2.0\DBLayer.deps.json
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\bin\Debug\netstandard2.0\DBLayer.dll
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\bin\Debug\netstandard2.0\DBLayer.pdb
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\bin\Debug\netstandard2.0\Shared.dll
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\bin\Debug\netstandard2.0\Shared.pdb
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\obj\Debug\netstandard2.0\DBLayer.csproj.CopyComplete
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\obj\Debug\netstandard2.0\DBLayer.dll
+C:\Users\ASUS\Desktop\Admin\AdminTestWebApp\DBLayer\obj\Debug\netstandard2.0\DBLayer.pdb

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Shared.ViewModels.EmployeeViewModel>
+
+@{
+    ViewData["Title"] = "Departments";
+    Layout = "~/Views/Shared/AdminLTE/_Layout.cshtml";
+
+}
+<h1>Employees</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<!-- /.row -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="table table-hover text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Id)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.firstName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.lastName)
+                            </th>
+                            
+                            <th>
+                                @Html.DisplayNameFor(model => model.departmentName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.createdAt)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.firstName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.lastName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.departmentName)
+                                </td>
+                               
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.createdAt)
+                                </td>
+                                
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+    </div>
+</div>
